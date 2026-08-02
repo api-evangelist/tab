@@ -1,7 +1,31 @@
 aid: tab
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tab.png
 name: Tab
-description: Tab is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tab (tab.travel) is a London-based payment platform built specifically for
+  independent tourism and hospitality businesses — hotels, hostels, tour
+  operators, retreat centers and activity providers. It lets these merchants
+  take card payments wherever their guests are, from in-advance deposits and
+  online booking pages to in-person, on-the-move transactions via a mobile app,
+  and to plug into an existing booking engine, PMS or OTA ecosystem. Tab
+  natively handles 140+ currencies, pays out weekly in the merchant's local
+  currency, and advertises transparent pricing from 2.9% per transaction with
+  no hidden fees. Founded in 2015 by Mark Datta and backed by Y Combinator
+  (W2015), Tab also operates a consumer-facing social-commerce guide for
+  discovering and booking travel. This profile is maintained by the API
+  Evangelist network; Tab does not currently publish a public developer API,
+  SDKs or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/tab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Payments
+- Travel
+- Tourism
+- Hospitality
+- Fintech
+- Marketplace
+- Booking
 apis: []
+common:
+- type: Website
+  url: https://www.tab.travel
+  name: Tab
+- type: DeveloperPortal
+  url: https://business.tab.travel
+  name: Tab for Business
+- type: Pricing
+  url: https://business.tab.travel/pricing
+  name: Pricing
+- type: SignUp
+  url: https://signup.tab.travel/
+  name: Sign Up
+- type: Blog
+  url: https://business.tab.travel/blog
+  name: Blog
+- type: TermsOfService
+  url: https://book.tab.travel/terms
+  name: Terms & Conditions
+- type: PrivacyPolicy
+  url: https://book.tab.travel/privacy-policy
+  name: Privacy Policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
