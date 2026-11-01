@@ -64,6 +64,74 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tab is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Tab (tab.travel) is a London-based payment platform built specifically for independent tourism and hospitality businesses — hotels, hostels, tour operators, retreat centers and activity providers. It lets these merchants take card payments wherever their guests are, from in-advance deposits and online booking pages to in-person, on-the-move transactions via a mobile app, and to plug into an existing booking engine, PMS or OTA ecosystem. Tab natively handles 140+ currencies, pays out weekly in the merchant's local currency, and advertises transparent pricing from 2.9% per transaction with no hidden fees. Founded in 2015 by Mark Datta and backed by Y Combinator (W2015), Tab also operates a consumer-facing social-commerce guide for discovering and booking travel. This profile is maintained by the API Evangelist network; Tab does not currently publish a public developer API, SDKs or API documentation.
 
-Backed by: y-combinator
+**Areas:** Company · Payments · Travel · Tourism · Hospitality · Fintech · Marketplace · Booking
+
+## Tab on APIs.io
+
+Everything profiled for Tab is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tab/](https://apis.io/providers/tab/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tab.travel)
+- [Pricing](https://business.tab.travel/pricing)
+- [Sign up](https://signup.tab.travel/)
+- [Blog](https://business.tab.travel/blog)
+- [Terms of service](https://book.tab.travel/terms)
+- [Privacy policy](https://book.tab.travel/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 14.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.1** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tab/](https://apis.io/providers/tab/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tab: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tab/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
